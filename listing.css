@@ -1,0 +1,86 @@
+body{
+    padding: 15px;
+    margin: 0;
+}
+header{
+    display: flex;
+}
+#heading{
+    flex: 1;
+}
+#add{
+    flex: 1;
+    text-align: right;
+}
+.card{
+    margin-bottom: 10px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.upper{
+    display: flex;
+}
+.card-img img{
+    flex: 1;
+    width: 145px;
+    height: 145px;
+    margin-right: 5px;
+    border-radius: 15%;
+    padding-right: 10px;
+}
+.info{
+    flex: 1;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.info #time{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    color: brown;
+}
+.info #title{
+    padding-top: 7px;
+    margin: 0px;
+    font-size: 25px;  
+}
+.info #cuisines{
+    padding-top: 7px;
+    margin: 0px;
+    font-size: 17px;
+    color: lightslategrey;
+}
+.info #address{
+    padding-top: 7px;
+    margin: 0px;
+    font-size: 17px;
+    color: lightgray;
+}
+.info #cft{
+    padding-top: 7px;
+    margin: 0px;
+    font-size: 17px;
+}
+.rating{
+    background-color: green;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10%;
+}
+.rating p{
+    flex:1;
+    align-content: right;
+}
+
+.lower {
+    padding-top: 10px;
+}
+.lower button{
+    color: white;
+    background-color: blue;
+    margin-right: 10px;
+}

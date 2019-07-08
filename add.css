@@ -1,0 +1,10 @@
+body{
+    padding: 15px;
+    margin: 0;
+}
+
+form .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
